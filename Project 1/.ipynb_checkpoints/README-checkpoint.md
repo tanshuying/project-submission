@@ -12,7 +12,7 @@ Weather can be a key concern for visitors when choosing a place of interest to v
 
 The CEO of a local museum consortium would like to understand periods of the year when the weather conditions would be associated with higher attendance, to facilitate resource allocation.
 
-As seen from various research (elaborated further below), attendance is expected to be affected by weather conditions. The CEO has tasked us to identify how attendance at the museum is associated with weather conditions and identify relevant periods to step up resources.
+As seen from various research, attendance is expected to be affected by weather conditions. The CEO has tasked us to identify how attendance at the museum is associated with weather conditions and identify relevant periods to step up resources.
 
 This project attempts to examine the trends and relationships of various weather variables (e.g. temperature, humidity, rainfall,..) with attendance to a few indoor and outdoor attractions, in particular the museums. The aim is to identify observations guiding the museums in allocating resources and refining its programmes, and to understand the effect on complementary leisure activities.
 
