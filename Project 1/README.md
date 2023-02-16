@@ -48,30 +48,32 @@ The final merged weather and health dataset is in the `data` folder:
 
 There are 24 features in the monthly weather attendance dataset outlined as follows:
 
-* yrmth: string; The year and month of each data point (in YYYY-MM format).
-* maximum_rainfall_in_a_day: float;	The maximum amount of rainfall within a day for the specific yrmth (units mm).
-* no_of_rainy_days: float; The number of rainy days in the specific yrmth. A day is considered rainy if more than 0.2mm of rain fell.
-* total_rainfall: float; The total rainfall in the specific yrmth (units mm).
-* mean_sunshine_hrs: float; The mean hours of sunshine per day in the specific yrmth (units h).
-* mean_temp: float; The mean of the daily mean air temperature in the specific yrmth (units degree Celsius).
-* mean_rh: float; The mean of the daily relative humidity in the specific yrmth (units percentage).
-* wbt_mean: float; The mean of the daily mean wet-bulb temperature in the specific yrmth (units degree Celsius).
-* wbt_max: float; The mean of the daily maximum wet-bulb temperature in the specific yrmth (units degree Celsius).
-* asian_civilisations_museum: float; The total number of visitors (in thousands) to the asian civilisations museum in the specific yrmth.
-* national_museum_of_singapore: float; The total number of visitors (in thousands) to the national museum of singapore in the specific yrmth.
-* singapore_art_museum: float; The total number of visitors (in thousands) to the singapore art museum in the specific yrmth.
-* peranakan_museum:	float; The total number of visitors (in thousands) to the peranakan museum in the specific yrmth.
-* science_centre_singapore:	float; The total number of visitors (in thousands) to the science centre singapore in the specific yrmth.
-* jurong_birdpark: float; The total number of visitors (in thousands) to the jurong birdpark in the specific yrmth.
-* night_safari: float; The total number of visitors (in thousands) to the night safari in the specific yrmth.
-* river_wonders: float; The total number of visitors (in thousands) to the river wonders in the specific yrmth.
-* zoo: float; The total number of visitors (in thousands) to the zoo in the specific yrmth.
-* chinese/japanese_garden: float; The total number of visitors (in thousands) to the chinese/japanese_garden in the specific yrmth.
-* sun_yat_sen_nanyang_memorial_hall: float; The total number of visitors (in thousands) to the sun yat sen nanyang memorial hall in the specific yrmth.
-* indian_heritage_centre: float; The total number of visitors (in thousands) to the indian heritage centre in the specific yrmth.
-* malay_heritage_centre: float; The total number of visitors (in thousands) to the malay heritage centre in the specific yrmth.
-* year:	int; The year of the specific yrmth.
-* month: int; The month of the specific yrmth.
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|**yrmth**|*string*|monthly weather attendance|The year and month of each data point (in YYYY-MM format).| 
+|**maximum_rainfall_in_a_day**|*float*|monthly weather attendance|The maximum amount of rainfall within a day for the specific yrmth (units mm).|
+|**no_of_rainy_days**|*float*|monthly weather attendance|The number of rainy days in the specific yrmth. A day is considered rainy if more than 0.2mm of rain fell.| 
+|**total_rainfall**|*float*|monthly weather attendance|The total rainfall in the specific yrmth (units mm).| 
+|**mean_sunshine_hrs**|*float*|monthly weather attendance|The mean hours of sunshine per day in the specific yrmth (units h).| 
+|**mean_temp**|*float*|monthly weather attendance|The mean of the daily mean air temperature in the specific yrmth (units degree Celsius).| 
+|**mean_rh**|*float*|monthly weather attendance|The mean of the daily relative humidity in the specific yrmth (units percentage).| 
+|**wbt_mean**|*float*|monthly weather attendance|The mean of the daily mean wet-bulb temperature in the specific yrmth (units degree Celsius).| 
+|**wbt_max**|*float*|monthly weather attendance|The mean of the daily maximum wet-bulb temperature in the specific yrmth (units degree Celsius).| 
+|**asian_civilisations_museum**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the asian civilisations museum in the specific yrmth.| 
+|**national_museum_of_singapore**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the national museum of singapore in the specific yrmth.| 
+|**singapore_art_museum**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the singapore art museum in the specific yrmth.| 
+|**peranakan_museum**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the peranakan museum in the specific yrmth.| 
+|**science_centre_singapore**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the science centre singapore in the specific yrmth.| 
+|**jurong_birdpark**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the jurong birdpark in the specific yrmth.| 
+|**night_safari**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the night safari in the specific yrmth.|
+|**river_wonders**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the river wonders in the specific yrmth.|
+|**zoo**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the zoo in the specific yrmth.|
+|**chinese/japanese_garden**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the chinese/japanese_garden in the specific yrmth.|
+|**sun_yat_sen_nanyang_memorial_hall**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the sun yat sen nanyang memorial hall in the specific yrmth.|
+|**indian_heritage_centre**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the indian heritage centre in the specific yrmth.|
+|**malay_heritage_centre**|*float*|monthly weather attendance|The total number of visitors (in thousands) to the malay heritage centre in the specific yrmth.|
+|**year**|*int*|monthly weather attendance|The year of the specific yrmth.| 
+|**month**|*int*|monthly weather attendance|The month of the specific yrmth.| 
 
 ---
 
