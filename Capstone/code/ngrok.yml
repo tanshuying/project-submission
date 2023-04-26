@@ -1,0 +1,5 @@
+authtoken: <your_auth_token>
+tunnels:
+  app:
+    proto: http
+    addr: 8501
