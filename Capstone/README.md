@@ -53,7 +53,7 @@ Summary of results
 |---|---|---|---|---|
 |Model 1 (Baseline)| 3 Layers of Convolution & MaxPooling| 0.95| 0.56|0.59|
 |Model 2 Multi-class| MobileNet-v2| 0.85| 0.82|0.82|
-|Model 3 Multi-label| VGG16| period: 0.66 type: 0.99|period: 0.71 type: 1.00|period: 0.71 type: 1.0|
+|Model 3 Multi-label| VGG16| period: 0.66 type: 0.99|period: 0.71 type: 1.00|period: 0.51 type: 0.52|
 
 ---
 ### Conclusion and Recommendations
@@ -66,7 +66,7 @@ Limitations:
 Conclusion:
 1) Results for the image classification system are promising.
 - 81% accuracy in predicting tags for the various artefacts (classes) for the multi-class system
-- High level of accuracy for both ‘period’ and ‘type’ outputs for the multi-label system
+- Moderate accuracy for both ‘period’ and ‘type’ outputs for the multi-label system
 
 2) Further improvements and finetuning could be explored to optimize the model's performance
 
